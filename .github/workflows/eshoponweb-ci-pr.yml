@@ -8,4 +8,4 @@ on:
 jobs:
   test:
     name: Test eShopOnWeb
-    uses: ./github/workflows/job_test_eshoponweb.yml
+    uses: ./.github/workflows/job_test_eshoponweb.yml
